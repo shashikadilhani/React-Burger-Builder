@@ -7,7 +7,8 @@ const layout = ( props ) => (
     <Aux>
         <div>Toolbar, SideDrawer, Backdrop</div>
         <main className={classes.Content}>
-            {props.children}
+            {props.children} 
+            {/* <div>build control and burger come from this</div> */}
         </main>
     </Aux>
 );
